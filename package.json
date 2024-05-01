@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "force-install": "rm -rf node_modules && npm cache clean --force && npm install",
+    "install": "--force",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
