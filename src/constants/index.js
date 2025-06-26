@@ -22,12 +22,16 @@ import {
   tesla,
   shopify,
   carrent,
+  post,
   gym,
   war,
+  logo,
+  playnue,
   jobit,
   tripguide,
   threejs,
   ecart,
+  next,
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +105,15 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "next",
+    icon: next,
+  },
+  
 ];
 
 const experiences = [
@@ -130,6 +143,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+  title: "Full Stack Developer",
+  company_name: "Playnue",
+  icon: playnue, // replace with your actual icon import or variable
+  iconBg: "#D6EAF8", // optional: change the color to match Playnue's branding
+  date: "Nov 2024 - Apr 2025",
+  points: [
+    "Built and maintained scalable web applications using modern technologies including Next.js, GraphQL, PostgreSQL, and Hasura for efficient data fetching and backend management.",
+    "Collaborated with UI/UX designers and backend teams to deliver seamless and efficient user experiences.",
+    "Developed RESTful APIs and integrated third-party services to enhance application functionality.",
+    "Ensured mobile responsiveness, optimized performance, and implemented best practices for code quality.",
+  ],
+},
 ];
 
 const testimonials = [
@@ -223,6 +249,32 @@ const projects = [
     image: war,
     source_code_link: "https://cars.netlify.app/",
   },
+ {
+  name: "Playnue",
+  description:
+    "A full-stack web application that allows users to discover and book nearby sports venues. Built with Next.js and powered by Nhost, leveraging Hasura, GraphQL, PostgreSQL, and Docker for scalable and efficient deployment.",
+  tags: [
+    {
+      name: "nextjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "postgresql",
+      color: "green-text-gradient",
+    },
+    {
+      name: "nhost",
+      color: "purple-text-gradient",
+    },
+    {
+      name: "docker",
+      color: "cyan-text-gradient",
+    },
+  ],
+  image: playnue, // Ensure 'war' is the actual image or screenshot of the Playnue app
+  source_code_link: "https://www.playnue.com", // Replace this with the actual GitHub or live link
+}
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

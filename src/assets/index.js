@@ -9,6 +9,8 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import next from "./tech/Next.js.png";
+import post from "./tech/PostgresSQL.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -29,7 +31,7 @@ import sortwind from './company/sortwind.jpg';
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import playnue from "./playnue.png"
 import carrent from "./carrent.png";
 import gym from './gym.png'
 import jobit from "./jobit.png";
@@ -42,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  next,
   menu,
   close,
   css,
@@ -50,11 +53,13 @@ export {
   git,
   html,
   javascript,
+  post,
   mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
+  playnue,
   typescript,
   threejs,
   war,
